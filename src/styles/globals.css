@@ -1,0 +1,58 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* GLOBALS START */
+:root {
+  background-color: #121213;
+}
+
+body {
+  background-color: #121213;
+}
+/* GLOBALS END */
+
+/* FONTS START */
+@font-face {
+  font-family: "poppins-medium";
+  src: url("./fonts/Poppins/Poppins-Medium.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "poppins-semibold";
+  src: url("./fonts/Poppins/Poppins-SemiBold.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
+/* FONTS END */
+
+/* BUTTONS START */
+.purple-button {
+  color: white;
+  background-color: #a664fe;
+  border-radius: 5px;
+  @apply font-poppins-medium;
+}
+
+.purple-border-button {
+  color: #a664fe;
+  background-color: transparent;
+  border: 1.5px;
+  border-radius: 5px;
+  border-style: solid;
+  border-color: #a664fe;
+  @apply font-poppins-medium;
+}
+
+.transparent-button {
+  color: white;
+  background-color: transparent;
+  border: 1.5px;
+  border-radius: 5px;
+  border-style: solid;
+  border-color: #1f2937;
+  @apply font-poppins-medium;
+}
+/* BUTTONS END */
